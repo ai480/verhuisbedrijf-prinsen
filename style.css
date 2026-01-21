@@ -146,6 +146,14 @@ li {
   color: #666;
 }
 
+.hero-img {
+  width: 100%;
+  max-width: 950px;
+  height: auto;
+  margin-top: 1.5rem;
+  border-radius: 4px;
+}
+
 /* Form */
 .form-section {
   background: #f5f5f5;
