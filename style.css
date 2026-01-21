@@ -81,8 +81,11 @@ a:hover {
 
 /* Main */
 main {
-  padding: 2.5rem 0 3rem;
   flex: 1;
+}
+
+main.container {
+  padding: 2.5rem 1rem 3rem;
 }
 
 h1 {
