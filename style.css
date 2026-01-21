@@ -81,8 +81,9 @@ a:hover {
 
 /* Main */
 main {
-  padding: 4rem 0 3rem;
+  padding: 8rem 0 3rem;
   flex: 1;
+  background: pink; /* TEST - verwijder later */
 }
 
 h1 {
