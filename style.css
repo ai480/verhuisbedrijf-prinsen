@@ -319,6 +319,101 @@ button:hover {
   margin: 1rem 0;
 }
 
+/* Diensten pagina - Zig-zag layout */
+.dienst-block {
+  display: grid;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+@media (min-width: 600px) {
+  .dienst-block {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .dienst-block.img-right .dienst-img {
+    order: 2;
+  }
+
+  .dienst-block.img-right .dienst-content {
+    order: 1;
+  }
+}
+
+.dienst-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.dienst-content h2 {
+  margin-top: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+  color: #e65c00;
+}
+
+.dienst-content h3 {
+  margin-top: 1.5rem;
+}
+
+/* Info box (voor "Hoe werkt het?") */
+.info-box {
+  background: #f5f5f5;
+  border-left: 3px solid #e65c00;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.info-box strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.info-box ul {
+  margin-bottom: 0;
+}
+
+/* Check list */
+.check-list {
+  list-style: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.check-list li {
+  margin-bottom: 0.4rem;
+  padding-left: 0;
+}
+
+.check-list .check {
+  color: #e65c00;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+/* Divider */
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}
+
+/* CTA section */
+.cta-section {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  border-top: 2px solid #333;
+}
+
+.cta-section h2 {
+  border-bottom: none;
+  margin-top: 0;
+}
+
 /* Utility */
 .sr-only {
   position: absolute;
