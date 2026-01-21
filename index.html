@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verhuisbedrijf Prinsen - Uw verhuizing in vertrouwde handen</title>
+  <meta name="description" content="Verhuisbedrijf Prinsen verzorgt uw verhuizing of opslag. Vraag vrijblijvend een offerte aan.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/" class="logo">Verhuisbedrijf Prinsen</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/diensten.html">Diensten</a>
+        <a href="/over-ons.html">Over ons</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+      <a href="tel:+31612345678" class="phone">06-12345678</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="hero">
+      <h1>Verhuisbedrijf Prinsen</h1>
+      <p class="tagline">Uw verhuizing in vertrouwde handen</p>
+    </div>
+
+    <section class="form-section">
+      <h2>Offerte aanvragen</h2>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+        <input type="hidden" name="subject" value="Nieuwe offerte aanvraag - Verhuisbedrijf Prinsen">
+        <input type="checkbox" name="botcheck" class="sr-only" style="display:none">
+
+        <div class="form-grid">
+          <div>
+            <label for="naam">Naam *</label>
+            <input type="text" id="naam" name="naam" required>
+          </div>
+          <div>
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="telefoon">Telefoon *</label>
+            <input type="tel" id="telefoon" name="telefoon" required>
+          </div>
+          <div>
+            <label for="dienst">Type dienst</label>
+            <select id="dienst" name="dienst">
+              <option value="verhuizing">Verhuizing</option>
+              <option value="opslag">Opslag</option>
+              <option value="verhuizing-opslag">Verhuizing + Opslag</option>
+              <option value="anders">Anders</option>
+            </select>
+          </div>
+          <div>
+            <label for="datum">Gewenste datum</label>
+            <input type="date" id="datum" name="datum">
+          </div>
+          <div>
+            <label for="van">Van adres</label>
+            <input type="text" id="van" name="van_adres">
+          </div>
+          <div>
+            <label for="naar">Naar adres</label>
+            <input type="text" id="naar" name="naar_adres">
+          </div>
+          <div class="full-width">
+            <label for="omschrijving">Omschrijving</label>
+            <textarea id="omschrijving" name="omschrijving" placeholder="Vertel ons wat u wilt verhuizen of opslaan..."></textarea>
+          </div>
+          <div class="full-width">
+            <button type="submit">Verstuur aanvraag</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <p class="call-cta">Liever bellen? <a href="tel:+31612345678" class="phone">06-12345678</a></p>
+
+    <section>
+      <h2>Waarom Verhuisbedrijf Prinsen?</h2>
+      <ul>
+        <li>Betrouwbare en ervaren verhuizers</li>
+        <li>Zorgvuldige omgang met uw spullen</li>
+        <li>Flexibele planning</li>
+        <li>Eerlijke prijzen zonder verrassingen</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Onze diensten</h2>
+      <p>Wij verzorgen particuliere en zakelijke verhuizingen, en bieden opslagmogelijkheden voor kort of lang.</p>
+      <p><a href="/diensten.html">Bekijk al onze diensten →</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Verhuisbedrijf Prinsen · Adresstraat 123, 1234 AB Plaats · <a href="tel:+31612345678">06-12345678</a> · KvK: 12345678</p>
+    </div>
+  </footer>
+</body>
+</html>
