@@ -52,10 +52,18 @@ a:hover {
   text-decoration: none;
   display: flex;
   align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.logo:hover {
+  color: #333;
 }
 
 .logo img {
-  height: 45px;
+  height: 40px;
   width: auto;
 }
 
