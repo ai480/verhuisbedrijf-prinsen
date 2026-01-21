@@ -330,7 +330,7 @@ button:hover {
   .dienst-block {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    align-items: start;
+    align-items: center;
   }
 
   .dienst-block.img-right .dienst-img {
