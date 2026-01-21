@@ -23,79 +23,74 @@
     </div>
   </header>
 
+  <div class="hero-full">
+    <img src="/images/vrachtwagens-950x313.avif" alt="Verhuiswagens Verhuisbedrijf Prinsen" width="950" height="313">
+  </div>
+
   <main class="container">
-    <div class="hero">
+    <div class="intro">
       <h1>Verhuisbedrijf Prinsen</h1>
       <p class="tagline">Al sinds 1996 uw vertrouwde verhuispartner in Drachten en omstreken</p>
-      <img src="/images/vrachtwagens-950x313.avif" alt="Verhuiswagens Verhuisbedrijf Prinsen" class="hero-img" width="950" height="313">
     </div>
 
-    <section class="form-section">
-      <h2>Gratis offerte aanvragen</h2>
-      <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
-        <input type="hidden" name="subject" value="Nieuwe offerte aanvraag - Verhuisbedrijf Prinsen">
-        <input type="checkbox" name="botcheck" class="sr-only" style="display:none">
+    <div class="main-grid">
+      <div class="main-left">
+        <h2>Waarom Verhuisbedrijf Prinsen?</h2>
+        <ul class="usp-list">
+          <li><span class="check">✓</span> <strong>Bijna 30 jaar ervaring</strong> — sinds 1996 actief in de verhuisbranche</li>
+          <li><span class="check">✓</span> <strong>Erkende Verhuizers</strong> — aangesloten bij de brancheorganisatie</li>
+          <li><span class="check">✓</span> <strong>VCA-gecertificeerd</strong> — veiligheid staat voorop</li>
+          <li><span class="check">✓</span> <strong>All-Risk verzekerd</strong> — uw inboedel is volledig gedekt</li>
+          <li><span class="check">✓</span> <strong>Eurovergunning</strong> — ook voor internationale verhuizingen</li>
+        </ul>
 
-        <div class="form-grid">
-          <div>
-            <label for="naam">Naam *</label>
-            <input type="text" id="naam" name="naam" required>
-          </div>
-          <div>
-            <label for="email">E-mail *</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div>
-            <label for="telefoon">Telefoon *</label>
-            <input type="tel" id="telefoon" name="telefoon" required>
-          </div>
-          <div>
-            <label for="dienst">Type dienst</label>
-            <select id="dienst" name="dienst">
-              <option value="particulier">Particuliere verhuizing</option>
-              <option value="zakelijk">Zakelijke verhuizing</option>
-              <option value="internationaal">Internationale verhuizing</option>
-              <option value="opslag">Opslag</option>
-              <option value="transport">Transport/meubelbezorging</option>
-              <option value="anders">Anders</option>
-            </select>
-          </div>
-          <div>
-            <label for="datum">Gewenste datum</label>
-            <input type="date" id="datum" name="datum">
-          </div>
-          <div>
-            <label for="van">Van adres</label>
-            <input type="text" id="van" name="van_adres">
-          </div>
-          <div>
-            <label for="naar">Naar adres</label>
-            <input type="text" id="naar" name="naar_adres">
-          </div>
-          <div class="full-width">
-            <label for="omschrijving">Omschrijving</label>
-            <textarea id="omschrijving" name="omschrijving" placeholder="Vertel ons wat u wilt verhuizen of opslaan..."></textarea>
-          </div>
-          <div class="full-width">
-            <button type="submit">Verstuur aanvraag</button>
-          </div>
+        <p class="call-cta">Liever bellen? <a href="tel:+31512515000" class="phone">0512-515000</a></p>
+      </div>
+
+      <div class="main-right">
+        <div class="form-section">
+          <h2>Gratis offerte aanvragen</h2>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+            <input type="hidden" name="subject" value="Nieuwe offerte aanvraag - Verhuisbedrijf Prinsen">
+            <input type="checkbox" name="botcheck" class="sr-only" style="display:none">
+
+            <div class="form-stack">
+              <div>
+                <label for="naam">Naam *</label>
+                <input type="text" id="naam" name="naam" required>
+              </div>
+              <div>
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div>
+                <label for="telefoon">Telefoon *</label>
+                <input type="tel" id="telefoon" name="telefoon" required>
+              </div>
+              <div>
+                <label for="dienst">Type dienst</label>
+                <select id="dienst" name="dienst">
+                  <option value="particulier">Particuliere verhuizing</option>
+                  <option value="zakelijk">Zakelijke verhuizing</option>
+                  <option value="internationaal">Internationale verhuizing</option>
+                  <option value="opslag">Opslag</option>
+                  <option value="transport">Transport/meubelbezorging</option>
+                  <option value="anders">Anders</option>
+                </select>
+              </div>
+              <div>
+                <label for="omschrijving">Omschrijving</label>
+                <textarea id="omschrijving" name="omschrijving" rows="3" placeholder="Vertel ons kort wat u wilt verhuizen..."></textarea>
+              </div>
+              <div>
+                <button type="submit">Verstuur aanvraag</button>
+              </div>
+            </div>
+          </form>
         </div>
-      </form>
-    </section>
-
-    <p class="call-cta">Liever bellen? <a href="tel:+31512515000" class="phone">0512-515000</a></p>
-
-    <section>
-      <h2>Waarom Verhuisbedrijf Prinsen?</h2>
-      <ul>
-        <li><strong>Bijna 30 jaar ervaring</strong> — sinds 1996 actief in de verhuisbranche</li>
-        <li><strong>Erkende Verhuizers</strong> — aangesloten bij de brancheorganisatie</li>
-        <li><strong>VCA-gecertificeerd</strong> — veiligheid staat voorop</li>
-        <li><strong>All-Risk verzekerd</strong> — uw inboedel is volledig gedekt</li>
-        <li><strong>Eurovergunning</strong> — ook voor internationale verhuizingen</li>
-      </ul>
-    </section>
+      </div>
+    </div>
 
     <section>
       <h2>Onze diensten</h2>
